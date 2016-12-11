@@ -1,0 +1,3 @@
+export SDK_PATH=~/Share/github/ESP8266_RTOS_SDK/
+export BIN_PATH=~/Share/github/ESP8266_RTOS_SDK/bin
+make COMPILE=gcc BOOT=new APP=1 SPI_SPEED=40 SPI_MODE=0 SPI_SIZE_MAP=2
