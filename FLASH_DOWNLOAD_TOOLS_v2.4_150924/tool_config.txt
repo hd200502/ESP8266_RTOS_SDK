@@ -1,15 +1,15 @@
 path_data:
-choosed:..\ESP8266\ESP8266_NONOS_SDK\bin\boot_v1.6.bin;0x0;
-choosed:..\ESP8266\ESP8266_NONOS_SDK\bin\upgrade\user1.1024.new.2.bin;0x1000;
-choosed:..\ESP8266\ESP8266_NONOS_SDK\bin\esp_init_data_default.bin;0xfc000;
-choosed:..\ESP8266\ESP8266_NONOS_SDK\bin\blank.bin;0x7e000;
+choosed:..\bin\boot_v1.6.bin;0x0;
+choosed:..\bin\upgrade\user1.1024.new.2.bin;0x1000;
+choosed:..\bin\esp_init_data_default.bin;0xfc000;
+choosed:..\bin\blank.bin;0x7e000;
 empty:;;
 empty:;;
 empty:;;
 default_path:D:\VM\share\Espressif\5.Firmware\esp8266_nonos_sdk_v2.0.0_16_07_19\ESP8266_NONOS_SDK\bin;
 COM1:
-com_port1:2
-baudrate1:6
+com_port1:3
+baudrate1:4
 COM2:
 com_port2:6
 baudrate2:2
@@ -39,7 +39,7 @@ CRYSTAL:1
 SPIAUTOSET:0
 SPICFGDIS:0
 SPISPEED:0
-SPIMODE:3
+SPIMODE:0
 FLASHSIZE:2
 EFUSE_MODE:1
 TARGETPOWER1:20.500000
